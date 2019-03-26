@@ -1,11 +1,12 @@
 .App {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 .About-web{
-  margin: 30px 80px;
-  padding: 0;
+  margin: 50px 0;
+  padding: 0 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
