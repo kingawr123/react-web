@@ -15,8 +15,10 @@ export class Header extends React.Component {
         return(
             < div className="Header-bg">
                 <h1>{this.props.mainTitle}</h1>
+                <headerH1 />
                 <h2>{this.props.secTitle}</h2>
             </ div>
         );
     }
 }
+

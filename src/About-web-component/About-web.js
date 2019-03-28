@@ -16,7 +16,7 @@ export class AboutWeb extends React.Component {
         return(
             <div className="Card-about-web">
                 <i class={this.props.icon}></i>
-                <h1>{ this.props.title }</h1>
+                <h3>{ this.props.title }</h3>
                 <p>{ this.props.paragraf }</p>
             </div>
         )

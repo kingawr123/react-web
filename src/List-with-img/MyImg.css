@@ -1,0 +1,13 @@
+.MyImg{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img{
+    background-image: url("/src/assets/img/astronomy-astrophotography-colors-755726.jpg");
+    height: 250px;
+    width: 120px;
+}
