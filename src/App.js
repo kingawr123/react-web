@@ -15,7 +15,7 @@ class App extends Component {
         <section className="About-web">
           <AboutWeb title="O mnie" paragraf="Nazywam się KInga Wrona i jestem uczennicą klasy 1 liceum." icon="fas fa-address-card" />
           <AboutWeb title="O stronie" paragraf="Będę tu umieszczać moje nieudolne próby tworzenia strony w React." icon="fas fa-info" />
-          <AboutWeb title="Aktualności" paragraf="Nie ma aktualności" icon="fas fa-exclamation" />
+          <AboutWeb title="Aktualności" paragraf="Całkowita zmiana stylu. Nowe kolory. Nowy nagłówek. Nowe wszystko." icon="fas fa-exclamation" />
         </section>
         <section className="List-with-img">
           <List tasks={[

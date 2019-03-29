@@ -1,13 +1,16 @@
-.MyImg{
-    margin: 0;
-    padding: 0;
+.Img-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 100px 0 0;
 }
 
 .Img{
-    background-image: url("/src/assets/img/astronomy-astrophotography-colors-755726.jpg");
-    height: 250px;
-    width: 120px;
+    height: 340px;
+    width: 240px;
+    border: 10px solid #b2988b;
+    border-radius: 10px;
+    background-image: url("../assets/img/37335628_1827571790611763_4270573939048054784_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

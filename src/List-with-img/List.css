@@ -15,11 +15,12 @@
 .List li {
     font-size: 25px;
     list-style: none;
+    font-weight: 200;
     padding: 0;
 }
 
 .List li i {
     padding-right: 10px;
     font-size: 30px;
-    color: #29B6F6;
+    color: #ffff4d;
 }

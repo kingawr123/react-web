@@ -7,7 +7,7 @@ export class List extends React.Component{
             <div className="List">
                 <h3>O mnie</h3>
                 <ul>
-                {this.props.tasks.map(task => <li><i class="fas fa-angle-right"></i>{task}</li>)}
+                {this.props.tasks.map(task => <li><i className="fas fa-angle-right"></i>{task}</li>)}
                 </ul>
             </div>
         )

@@ -1,5 +1,6 @@
 import React from 'react';
 import './About-web.css';
+import { ButtonGoTo } from './ButtonGoTo';
 
 export class AboutWeb extends React.Component {
 
@@ -15,9 +16,10 @@ export class AboutWeb extends React.Component {
     render() {
         return(
             <div className="Card-about-web">
-                <i class={this.props.icon}></i>
+                <i className={this.props.icon}></i>
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.paragraf }</p>
+                <ButtonGoTo />
             </div>
         )
     }
