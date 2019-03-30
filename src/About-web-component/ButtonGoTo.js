@@ -5,7 +5,7 @@ export class ButtonGoTo extends React.Component {
     render(){
         return(
             <div className="button-container">
-                <button>Przejdź do</button>
+                <button onClick = {() => alert('Wciśnięto!!!')}>Przejdź do</button>
             </div>
         )
     }

@@ -1,8 +1,8 @@
 .Card-about-web{
-    width: 20%;
+    width: 30%;
     height: 400px;
     font-size: 1em;
-    border: 10px solid #b2988b;
+    border: .5px solid #b2988b;
     color: black;
     display: flex;
     flex-direction: column;
