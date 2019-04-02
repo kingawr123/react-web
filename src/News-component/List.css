@@ -1,0 +1,26 @@
+.news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-container h3 {
+    font-size: 3.2em;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.news-container li {
+    font-size: 35px;
+    list-style: none;
+    font-weight: 200;
+    padding: 0;
+}
+
+.news-container li i {
+    padding-right: 10px;
+    font-size: 35px;
+    color: #ffff4d;
+}

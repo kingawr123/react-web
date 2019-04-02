@@ -1,0 +1,8 @@
+.about-web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 70px 0;
+    border-bottom: .5px solid #f2f2f2;
+}

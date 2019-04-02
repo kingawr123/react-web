@@ -1,0 +1,8 @@
+.columns-container{
+    margin: 0;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import './About-web.css';
+import './Column-container.css';
 import { ButtonGoTo } from './ButtonGoTo';
 
-export class AboutWeb extends React.Component {
+export class ColumnContainer extends React.Component {
 
     constructor(props){
         super(props);
@@ -10,6 +10,7 @@ export class AboutWeb extends React.Component {
             title: '',
             paragraf:'',
             icon: '',
+            href: ''
         }
     }
   
@@ -19,7 +20,7 @@ export class AboutWeb extends React.Component {
                 <i className={this.props.icon}></i>
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.paragraf }</p>
-                <ButtonGoTo />
+                <ButtonGoTo href={this.props.href} />
             </div>
         )
     }

@@ -1,0 +1,9 @@
+.about-me{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 40px 180px;
+    border-bottom: .5px solid #f2f2f2;
+}
