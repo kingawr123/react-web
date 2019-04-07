@@ -1,0 +1,10 @@
+.clock h3{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5em
+
+}

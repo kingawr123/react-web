@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './News.css';
 import { List } from './List';
 
@@ -9,8 +9,8 @@ export class News extends React.Component {
                 <List tasks={[
                     'Router!!!!',
                     'Nowe kolorki takie różowe ładne',
-                    'No i kwiotków dużo',
-                    'Takie dłuższe żeby okienko było szersze. No jeszcze troche'
+                    'Cliknij w przycisk!!, dłuższy napis mi jest potrzebny',
+                    'Zegar (działa!!)'
                 ]}/>
             </div>
         )

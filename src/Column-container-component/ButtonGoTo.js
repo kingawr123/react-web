@@ -1,17 +1,8 @@
 import React from 'react';
 import './ButtonGoTo.css';
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-export class ButtonGoTo extends React.Component {
-    
-    constructor(props){
-        super(props);
-    }
-    
+export class ButtonGoTo extends React.Component { 
     render(){
         return(
             <div className="button-container">

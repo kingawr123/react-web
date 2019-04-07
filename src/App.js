@@ -22,7 +22,7 @@ class App extends Component {
             <ColumnsContainer />
           </section>
         </div>
-        <div>
+        <div className="About-route">
           <Route path="/aboutMe" component={AboutMe} />
           <Route path="/aboutWeb" component={AboutWeb} />
           <Route path="/news"component={News}/>
@@ -33,3 +33,5 @@ class App extends Component {
 }
 
 export default App;
+
+

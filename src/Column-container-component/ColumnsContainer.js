@@ -1,15 +1,30 @@
 import React from 'react';
 import './ColumnsContainer.css';
-import { ColumnContainer } from './Column-container';
+import { Column } from './Column';
 
 export class ColumnsContainer extends React.Component {
     render() {
         return (
             <div className="columns-container">
-                <ColumnContainer href="/aboutMe" title="O mnie" paragraf="Nazywam się Kinga Wrona i jestem uczennicą klasy 1 liceum." icon="fas fa-address-card" />
-                <ColumnContainer href="/aboutWeb" title="O stronie" paragraf="Będę tu umieszczać moje nieudolne próby tworzenia strony w React." icon="fas fa-info" />
-                <ColumnContainer href="/news" title="Aktualności" paragraf="Całkowita zmiana stylu. Nowe kolory. Nowy nagłówek. Nowe wszystko." icon="fas fa-exclamation" />
+                <Column href="/aboutMe" title="O mnie" paragraf="Nazywam się Kinga Wrona i jestem uczennicą klasy 1 liceum." icon="fas fa-address-card" />
+                <Column href="/aboutWeb" title="O stronie" paragraf="Będę tu umieszczać moje nieudolne próby tworzenia strony w React." icon="fas fa-info" />
+                <Column href="/news" title="Aktualności" paragraf="Całkowita zmiana stylu. Nowe kolory. Nowy nagłówek. Nowe wszystko." icon="fas fa-exclamation" />
             </div>
         )
     }
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+    const Btn = document.querySelectorAll("button");
+
+    for(let i = 0; i < Btn.length; i++){
+        Btn[i].addEventListener("click", () => {
+            window.scroll({
+                left: 0,
+                top:1500,
+                behavior: "smooth"
+            })
+        })
+    }
+    
+  })

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Column-container.css';
+import './Column.css';
 import { ButtonGoTo } from './ButtonGoTo';
 
-export class ColumnContainer extends React.Component {
+export class Column extends React.Component {
 
     constructor(props){
         super(props);
@@ -16,7 +16,7 @@ export class ColumnContainer extends React.Component {
   
     render() {
         return(
-            <div className="Card-about-web">
+            <div className="Card">
                 <i className={this.props.icon}></i>
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.paragraf }</p>
