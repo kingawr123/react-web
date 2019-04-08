@@ -9,8 +9,8 @@
     height: 340px;
     width: 240px;
     border: 1px solid #b2988b;
-    border-radius: 10px;
     background-image: url("../assets/img/37335628_1827571790611763_4270573939048054784_o.jpg");
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
 }

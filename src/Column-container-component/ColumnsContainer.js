@@ -14,17 +14,23 @@ export class ColumnsContainer extends React.Component {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-    const Btn = document.querySelectorAll("button");
+document.addEventListener("DOMContentLoaded", function () {
 
-    for(let i = 0; i < Btn.length; i++){
-        Btn[i].addEventListener("click", () => {
-            window.scroll({
-                left: 0,
-                top:1500,
-                behavior: "smooth"
+    windowScroll();
+  
+    function windowScroll() {
+        const Btn = document.querySelectorAll("button");
+  
+        for (let i = 0; i < Btn.length; i++) {
+            Btn[i].addEventListener("click", () => {
+                window.scroll({
+                    left: 0,
+                    top: 800,
+                    behavior: "smooth"
+                })
             })
-        })
+  
+        }
     }
-    
   })
+  

@@ -9,12 +9,13 @@ import {
   Route
 } from 'react-router-dom';
 import { News } from './News-component/News';
+import { Gallery } from './Gallery-component/Gallery';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div>
           <header >
             <Header />
           </header>
@@ -22,10 +23,13 @@ class App extends Component {
             <ColumnsContainer />
           </section>
         </div>
-        <div className="About-route">
-          <Route path="/aboutMe" component={AboutMe} />
-          <Route path="/aboutWeb" component={AboutWeb} />
+        <div>
+          <Route path="/aboutMe" component={AboutMe}/>
+          <Route path="/aboutWeb" component={AboutWeb}/>
           <Route path="/news"component={News}/>
+        </div>
+        <div>
+          <Gallery />
         </div>
       </Router>
     );
