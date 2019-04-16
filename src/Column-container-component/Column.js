@@ -10,7 +10,7 @@ export class Column extends React.Component {
             title: '',
             paragraf:'',
             icon: '',
-            href: ''
+            // href: ''
         }
     }
   
@@ -20,7 +20,8 @@ export class Column extends React.Component {
                 <i className={this.props.icon}></i>
                 <h3>{ this.props.title }</h3>
                 <p>{ this.props.paragraf }</p>
-                <ButtonGoTo href={this.props.href} />
+                <ButtonGoTo />
+                {/* <ButtonGoTo href={this.props.href} /> */}
             </div>
         )
     }
