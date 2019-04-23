@@ -5,9 +5,7 @@ export class MyImage extends React.Component {
 
     render() {
         return (
-            <div className={this.props.containerClass}>
-                <div className={this.props.imgClass}></div>
-            </div>
+            <div className={this.props.imgClass}></div>
         )
     }
 }

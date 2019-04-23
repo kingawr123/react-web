@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div>
 
-        <a onClick={() => $("body,html").animate({ scrollTop: 10 }, 500) } id="return-to-top"><i className="icon-chevron-up"></i></a>
+        <button onClick={() => $("body,html").animate({ scrollTop: 10 }, 500) } id="return-to-top"><i className="icon-chevron-up"></i></button>
 
         <header className="header">
           <Header />

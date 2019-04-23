@@ -1,7 +1,35 @@
- .slide{
+ .slider-container{
     height: 500px;
     width: 700px;
     padding: 0;
     margin: 0;
-    border: .5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center
+ }
+
+ .previous-arrow,
+ .next-arrow{
+    color: #ffff4d;
+    padding: 0 30px;
+    cursor: pointer;
+ }
+
+ .slider-container i{
+   font-size: 3em;
+ }
+
+ .flower, .bird{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 550px;
+    border-radius: 20px;
+ }
+
+ .flower{
+   background-image: url("../assets/img/bloom-blossom-daisies-67857.jpg");
+ }
+ .bird{
+   background-image: url("../assets/img/animal-close-up-feather-531294.jpg");
  }

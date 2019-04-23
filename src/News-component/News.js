@@ -7,10 +7,10 @@ export class News extends React.Component {
         return(
             <div className="news">
                 <List tasks={[
-                    'Router!!!!',
+                    'Strzałka do góry!!!',
                     'Nowe kolorki takie różowe ładne',
                     'Cliknij w przycisk!!, dłuższy napis mi jest potrzebny',
-                    'Zegar (działa!!)'
+                    'Zegar (działa!!) (i nie jest do niczego potrzebny xd)'
                 ]}/>
             </div>
         )

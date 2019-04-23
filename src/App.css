@@ -9,8 +9,7 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: #fa97c5a8;
     width: 80px;
     height: 80px;
     display: block;
@@ -23,15 +22,15 @@
     color: #fff;
     margin: 0;
     position: relative;
-    left: 25px;
-    top: 20px;
+    left: -4px;
+    top: 0px;
     font-size: 32px;
     transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: #e0639de6;
 }
 #return-to-top:hover i {
     color: #fff;
-    top: 5px;
+    top: -8px;
 }

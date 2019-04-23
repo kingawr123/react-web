@@ -5,15 +5,6 @@ import { MyImage } from './MyImg';
 
 export class AboutMe extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      src: '',
-      altText: ''
-    }
-  }
-
-
     render(){
         return(
             <div className="about-me">
@@ -24,7 +15,7 @@ export class AboutMe extends React.Component {
               'Uczęszczam do szkoły im.Juliusza Słowackiego w Kielcach', 
               'Chodzę do klasy o profilu mat-fiz-inf z patronatem TT'
             ]}/>
-            <MyImage containerClass="Img-container" imgClass="Img"/>
+            <MyImage imgClass="Img"/>
           </div>
         )
     }

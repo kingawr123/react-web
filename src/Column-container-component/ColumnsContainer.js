@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
         for (let i = 0; i < Btn.length; i++) {
             Btn[i].addEventListener("click", () => {
-                window.scroll({
+                window.scrollTo({
                     left: 0,
-                    top: 600 * (i+1),
+                    top: 400 * (i+1),
                     behavior: "smooth"
                 })
             })
