@@ -14,23 +14,5 @@ export class ColumnsContainer extends React.Component {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
 
-    windowScroll();
-  
-    function windowScroll() {
-        const Btn = document.querySelectorAll("button");
-  
-        for (let i = 0; i < Btn.length; i++) {
-            Btn[i].addEventListener("click", () => {
-                window.scrollTo({
-                    left: 0,
-                    top: 400 * (i+1),
-                    behavior: "smooth"
-                })
-            })
-  
-        }
-    }
-  })
   

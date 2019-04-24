@@ -1,5 +1,7 @@
 .slider-stage{
     width: 800px;
+    overflow-x: hidden;
+
 }
 
 .slider{
@@ -7,7 +9,7 @@
     width: 800px;
     display: flex;
     padding: 0;
-    overflow-x: hidden
+    position: relative;
 }
 
 
